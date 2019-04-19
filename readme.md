@@ -1,15 +1,14 @@
-[功能说明文档](http://cjkis.me/capslock+/)
+# Windows shortcut like Emacs
 
+在[capslock+](https://cjkis.me/capslock+/)的基础上重新设置快捷键位，使其更加符合Emacs用户的习惯
 
-##1.怎么运行Capslock+的源码？
+## 安装
+
 1. 下载 [AutoHotkey](http://www.ahkscript.org/)，并安装。
 2. 从 GitHub 下载 Capslock+ 源码。
 3. 运行`Capslock+.ahk`。
 
-##2.能不能在XXX快捷键上实现XXX功能？
-打开`/userAHK/main.ahk`，看看开头的说明。
 
-还是抄一下吧：
 
 ```ahk
 /*
@@ -81,10 +80,5 @@ keyfunc_test2(str){
 |lib_mouseSpeed.ahk|鼠标变速|
 |lib_settings.ahk|Capslock+settings.ini设置项提取|
 |lib_ydTrans.ahk|翻译|
-
-##4.你代码写得也太烂了吧，注释又少...
-我也觉得，当初 Capslock+ 是我写来自己用的，想要什么功能就直接加上去，没怎么规划，但求够用和快点写完。当然很大原因也是水平不够。
-
-一直想着有时间好好重构一遍，并写多些注释再扔出来。不过一直没时间，已经拖了好久了，就先放出来吧...
 
 

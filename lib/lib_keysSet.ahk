@@ -8,16 +8,26 @@ global keyset:=CLSets.Keys
     
 ;  }
     
+; if(!keyset.caps_a)
+;     keyset.caps_a:="keyFunc_moveWordLeft"
 if(!keyset.caps_a)
-    keyset.caps_a:="keyFunc_moveWordLeft"
+    keyset.caps_a:="keyFunc_home"
+if(!keyset.caps_e)
+    keyset.caps_e:="keyFunc_end"
+; if(!keyset.caps_b)
+;     keyset.caps_b:="keyFunc_moveDown(5)"
 if(!keyset.caps_b)
-    keyset.caps_b:="keyFunc_moveDown(5)"
+    keyset.caps_b:="keyFunc_moveLeft"
 if(!keyset.caps_c)
     keyset.caps_c:="keyFunc_copy_1"
-if(!keyset.caps_d)
-    keyset.caps_d:="keyFunc_moveDown"
-if(!keyset.caps_e)
-    keyset.caps_e:="keyFunc_moveUp"
+; if(!keyset.caps_d)
+;     keyset.caps_d:="keyFunc_moveDown"
+if(!keyset.caps_n)
+    keyset.caps_n:="keyFunc_moveDown"
+; if(!keyset.caps_e)
+;     keyset.caps_e:="keyFunc_moveUp"
+if(!keyset.caps_p)
+    keyset.caps_p:="keyFunc_moveUp"
 if(!keyset.caps_f)
     keyset.caps_f:="keyFunc_moveRight"
 if(!keyset.caps_g)
@@ -34,18 +44,18 @@ if(!keyset.caps_l)
     keyset.caps_l:="keyFunc_selectRight"
 if(!keyset.caps_m)
     keyset.caps_m:="keyFunc_selectDown(5)"
-if(!keyset.caps_n)
-    keyset.caps_n:="keyFunc_selectWordRight"
+; if(!keyset.caps_n)
+;     keyset.caps_n:="keyFunc_selectWordRight"
 if(!keyset.caps_o)
     keyset.caps_o:="keyFunc_selectEnd"
-if(!keyset.caps_p)
-    keyset.caps_p:="keyFunc_home"
+; if(!keyset.caps_p)
+;     keyset.caps_p:="keyFunc_home"
 if(!keyset.caps_q)
     keyset.caps_q:="keyFunc_qbar"
 if(!keyset.caps_r)
     keyset.caps_r:="keyFunc_delete"
-if(!keyset.caps_s)
-    keyset.caps_s:="keyFunc_moveLeft"
+; if(!keyset.caps_s)
+;     keyset.caps_s:="keyFunc_moveLeft"
 if(!keyset.caps_t)
     keyset.caps_t:="keyFunc_translate"
 if(!keyset.caps_u)
